@@ -7,7 +7,7 @@ Consists out of an AngularJS 1.5.5 Frontend in a Node Container, a Python3.6 API
 
 Goal of the project was to develop an MVP for the Company to evaluate the Usage of a Test Scenario Management System for their Story Driven Testing. At the End of the Project there was a live Presentation and Demo for the Head of Development of the Insurance Company as well as some of his peers.
 
-Application Text is in German. 
+Application Text is in German. Was created as a Team of 2, other guy wrote the Java Backend.
 
 ## Functionalities
 
@@ -36,7 +36,7 @@ Currently the project is configured to run on one machine with every component r
 3. Navigate to the importer micro-service directory and write in a terminal/command prompt: "mvn clean package -DskipTests docker:build"
 4. Navigate to the exporter micro-service directory and write in a terminal/command prompt: "mvn clean package -DskipTests docker:build"
 5. Navigate to the root directory of the project and write in a terminal/command prompt: "docker-compose up --build --force-recreate"
-6. The Front End Client should be accessible at http://localhost:8080
+6. The Front End Client should be accessible at http://localhost
 
 ### Ports for each micro service, including Front End and MySQL Database
 Front End Port: 80 
