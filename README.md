@@ -39,7 +39,7 @@ Currently the project is configured to run on one machine with every component r
 6. The Front End Client should be accessible at http://localhost:8080
 
 ### Ports for each micro service, including Front End and MySQL Database
-Front End Port: 8080
+Front End Port: 80 
 API Port: 40042
 Database Port: 8081
 Exporter Port: 8082
