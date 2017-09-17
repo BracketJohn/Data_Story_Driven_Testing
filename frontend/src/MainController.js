@@ -1,6 +1,6 @@
 angular.module('gdisApp').controller('MainController', function($scope, $mdSidenav, $location) {
     $scope.message = 'Bitte wählen Sie einen Menüpunkt aus der Leiste aus!';
-    $scope.imagePath = 'imgs/generali.jpg';
+    $scope.imagePath = 'imgs/some_company.jpg';
     $scope.smallNav = true;
 
     //init

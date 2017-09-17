@@ -1,6 +1,0 @@
-Input: 
-{
-	"storyName": "newContract",
-	"description": "When the customer wants to make a new insurance...",
-	"scenarios": ["@When(\"Something\")", "@Then(\"Something\")"]
-}

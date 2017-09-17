@@ -1,22 +1,31 @@
-GDIS Test Suite
+SOME_COMPANY Test Suite
 ==
+
+Uni Project which is supposed to create an easy Web Interface to manage Files for Story driven testing for a German Insurance Company.
+
+Consists out of an AngularJS 1.5.5 Frontend in a Node Container, a Python3.6 API in an Alpine Container and a Java Backend as well as a MySQL Container.
+
+Goal of the project was to develop an MVP for the Company to evaluate the Usage of a Test Scenario Management System for their Story Driven Testing. At the End of the Project there was a live Presentation and Demo for the Head of Development of the Insurance Company as well as some of his peers.
+
+Application Text is in German. 
+
+## Functionalities
+
+One is able to:
+* Import Test Stories and Name them
+* Import Test Data and link it to a Test Story
+* Create Entities which can then be linked to Features of Test Data to efficiently create and manage Test Objects
+* Export all Data belonging to a certain Story
+* Recombine and Export created Entities
+* Choose to create all possible Permutations or keep order on export
+* See some stats about Entities and Entity Counts
+* Filter on Export, based on Feature Types, available Filters are: Regex, Min/Max for Numbers
 
 ## Requirements
 
-Back end: 
-1. JDK 1.8+
-2. Maven for building the JAR files 
-
-Front end: 
-1. Node.js + NPM 
-
-API:
-1. Python, PIP and FLASK
-Swagger Documentation can be found here (or in the api subfolder):
-https://app.swaggerhub.com/apis/BracketJohn/smart_insurance_api/1.0.0 
-
 Other: 
 1. Docker
+2. Maven
 
 ## Start the project/system (Front End Client + API + Back End) Client + Back End: 
 
