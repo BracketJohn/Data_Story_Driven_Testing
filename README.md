@@ -1,7 +1,7 @@
 SOME_COMPANY Test Suite
 ==
 
-Uni Project which is supposed to create an easy Web Interface to manage Files for Story driven testing for a German Insurance Company.
+Project which is supposed to create an easy Web Interface to manage Files for Story driven testing for a German Insurance Company.
 
 Consists out of an AngularJS 1.5.5 Frontend in a Node Container, a Python3.6 API in an Alpine Container and a Java Backend as well as a MySQL Container.
 
